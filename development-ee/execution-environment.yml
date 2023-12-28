@@ -19,8 +19,7 @@ dependencies:
 
 options:
   package_manager_path: /usr/bin/dnf
-  workdir: /home/ansible
-  user: ansible
+  user: root
 
 additional_build_steps:
   prepend_base:
