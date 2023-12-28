@@ -5,3 +5,5 @@ collections:
   - ansible.posix
   - name: servicenow.itsm
     version: 2.3.0
+#  appd
+  - appdynamics.agents
