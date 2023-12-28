@@ -19,7 +19,7 @@ dependencies:
 
 options:
   package_manager_path: /usr/bin/dnf
-  workdir: /runner
+  workdir: /home/ansible
   user: ansible
 
 additional_build_steps:
