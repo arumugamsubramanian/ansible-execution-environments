@@ -3,6 +3,7 @@ collections:
   - community.general
   - ansible.utils
   - ansible.posix
+  - amazon.aws
   - name: servicenow.itsm
     version: 2.3.0
 #  appd
