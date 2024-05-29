@@ -26,6 +26,7 @@ additional_build_steps:
     - RUN useradd -u 1000 -m ansible
     - RUN echo "ansible ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
     - RUN dnf install -y which python-argcomplete
+    - RUN dnf install zip unzip
   prepend_final:
     - RUN $PYCMD -m pip install --upgrade pip setuptools
     - RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
