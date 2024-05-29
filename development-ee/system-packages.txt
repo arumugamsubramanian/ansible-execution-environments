@@ -1,3 +1,5 @@
 openssh-clients
 sshpass
 jq
+zip
+unzip
