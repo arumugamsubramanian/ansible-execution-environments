@@ -4,6 +4,7 @@ collections:
   - ansible.utils
   - ansible.posix
   - amazon.aws
+  - kubernetes.core
   - name: servicenow.itsm
     version: 2.3.0
 #  appd
