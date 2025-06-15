@@ -31,7 +31,7 @@ additional_build_steps:
     - RUN $PYCMD -m pip install --upgrade pip setuptools
     # Install AWS CLI v2
     - RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    - RUN unzip awscliv2.zip
+    - RUN unzip -q awscliv2.zip
     - RUN ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
     - RUN rm -rf awscliv2.zip
     # Install kubectl
