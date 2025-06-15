@@ -1,5 +1,8 @@
 version: 3
 
+build_arg_defaults:
+  ANSIBLE_GALAXY_CLI_COLLECTION_OPTS: '-vvv'
+
 images:
   base_image:
     name: quay.io/fedora/fedora:39
