@@ -96,7 +96,7 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
 
-      - name: Build image and create artifact
+      - name: Print Build image and create artifact Details
         run: |
           echo "Would build: ${{ env.EE }}"
 
